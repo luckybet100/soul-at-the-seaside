@@ -1,0 +1,3 @@
+[submodule "libcam"]
+	path = libcam
+	url = https://github.com/luckybet100/libcam
