@@ -15,9 +15,9 @@ IF (APPLE)
     set(CMAKE_EXE_LINKER_FLAGS "-framework Foundation -framework AVFoundation -framework CoreVideo -framework CoreMedia -w")
 ENDIF()
 
-add_subdirectory(libcam)
+add_subdirectory(third-party/libcam)
 
-include_directories(libcam/include)
+include_directories(third-party/libcam/include)
 
 set(SOURCE_FILES src/main.cpp)
 add_executable(soul_at_the_seaside ${SOURCE_FILES})

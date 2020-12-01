@@ -1,3 +1,3 @@
-[submodule "libcam"]
-	path = libcam
+[submodule "third-party/libcam"]
+	path = third-party/libcam
 	url = https://github.com/luckybet100/libcam
